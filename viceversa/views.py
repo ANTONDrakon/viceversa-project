@@ -3,8 +3,10 @@ from django.shortcuts import render
 
 
 
-def vice_versa(request):
-    
-    
-    return render(request, './index.html')
+def index(request):    
+    return render(request, 'index.html')
+
+
+def reverse(request):    
+    return render(request, 'reverse.html')
 
